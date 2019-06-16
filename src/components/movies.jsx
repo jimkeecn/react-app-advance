@@ -4,7 +4,7 @@ import Pagination from "./common/pagination";
 class Movies extends Component {
   state = {
     movies: getMovies(),
-    pageSize: 4
+    pageSize: 9
   };
   handleDelete = movie => {
     console.log("Movie Deleted", movie);
